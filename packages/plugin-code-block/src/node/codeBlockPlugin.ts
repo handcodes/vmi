@@ -33,7 +33,7 @@ export const codeBlockPlugin = (
 
     extendsPage(page, app) {
       resolveScriptSetup(page, store)
-      app.pages && prepareVmiComponents(app, store)
+      // app.pages && prepareVmiComponents(app, store)
     },
 
     onInitialized(app) {
